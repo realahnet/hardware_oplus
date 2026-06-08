@@ -210,3 +210,6 @@
 # Wlschgd
 /(odm|vendor/odm)/bin/hw/wlschgd      u:object_r:wlschgd_exec:s0
 /dev/wls_dev                          u:object_r:wlschgd_device:s0
+
+# APS Fixup
+/odm/lib64/libapsfixup\.so    u:object_r:same_process_hal_file:s0
