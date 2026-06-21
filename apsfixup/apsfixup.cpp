@@ -18,7 +18,7 @@
 //
 // Loaded into com.oplus.camera as a DT_NEEDED of /odm/lib64/libAlgoProcess.so. Offsets are
 // pinned to the Ace 5 blobs:
-//   libAlgoProcess.so    BuildId <ace5>  p010LSB2MSBNeon @ +0x6a2dac, its GOT slot @ +0x7120f8
+//   libAlgoProcess.so    BuildId <ace5>  p010LSB2MSBNeon @ +0x58f8cc, its GOT slot @ +0x715ea8
 //   libAlgoInterface.so  BuildId <ace5>  dlsym GOT slot @ +0x2ae6880
 //
 #include <android/log.h>
@@ -37,7 +37,7 @@
 #define LOGI(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
 #define LOGW(...) __android_log_print(ANDROID_LOG_WARN, TAG, __VA_ARGS__)
 
-static const uintptr_t P010_FUNC_OFF = 0x58f714;   // p010LSB2MSBNeon in libAlgoProcess
+static const uintptr_t P010_FUNC_OFF = 0x58f8cc;   // p010LSB2MSBNeon in libAlgoProcess
 static const uintptr_t P010_GOT_OFF  = 0x715ea8;   // its JUMP_SLOT GOT entry
 static const uintptr_t DLSYM_GOT_OFF = 0x2ae6880;  // dlsym JUMP_SLOT GOT entry in libAlgoInterface
 
