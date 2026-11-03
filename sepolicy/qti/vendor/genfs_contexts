@@ -27,7 +27,6 @@ genfscon proc /ui_soc_decimal                                        u:object_r:
 genfscon proc /fastchg_fw_update                                     u:object_r:vendor_proc_charger:s0
 genfscon proc /tbatt_pwroff                                          u:object_r:vendor_proc_charger:s0
 genfscon proc /devinfo/fastchg                                       u:object_r:vendor_proc_charger:s0
-genfscon proc /devinfo/ufs                                           u:object_r:vendor_proc_charger:s0
 genfscon proc /devinfo/emmc                                          u:object_r:vendor_proc_charger:s0
 genfscon proc /device-tree/soc/qcom,pmic_glink/qcom,battery_charger/qcom,pmic_ftm_vph u:object_r:vendor_proc_charger:s0
 genfscon proc /device-tree/soc/qcom,pmic_glink/qcom,battery_charger/qcom,pmic_ftm_vbat u:object_r:vendor_proc_charger:s0
